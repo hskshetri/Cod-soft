@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Aspiring Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo">
+        <h1>Harsh Singh Kshetrimayum</h1>
+        <p>Aspiring Software Engineer & Computer Science and Engineering Student</p>
+        <nav role="navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Harsh, an aspiring Software Engineer and a 3rd year Computer Science and Engineering student at Uttaranchal University, Dehradun. I love coding and building projects that solve real-world problems. I have completed my previous internships from TechnoHacks EduTech,there I was a Data Analytics Intern.</p>
+        <form>
+            <label for="photo">Upload Photo:</label>
+            <input type="file" id="photo" name="photo" accept="image/*" required>
+            <button type="submit">Upload</button>
+        </form>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: Python, Java, JavaScript, C/C++</li>
+            <li>Web Development: HTML, CSS, React, Node.js</li>
+            <li>Databases: MySQL, MongoDB</li>
+            <li>Tools: Git</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project One:</h3>
+            <p>Description of project one.</p>
+            <form>
+                <label for="photo">Upload Photo:</label>
+                <input type="file" id="photo" name="photo" accept="image/*"required>
+                <button type="submit">Upload</button>
+            </form>
+            <a href="https://github.com/johndoe/project-one" target="_blank">View on GitHub</a>
+        </div>
+        <!-- Add more projects here -->
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>You can download my resume <a href="resume.pdf" target="_blank">here</a>.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Harsh Singh Kshetrimayum. All rights reserved.</p>
+        <ul>
+            <li><a href="https://twitter.com/harshksh007" target="_blank">Twitter</a></li>
+            <li><a href="https://github.com/harshksh007" target="_blank">GitHub</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
